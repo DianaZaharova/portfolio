@@ -1,0 +1,31 @@
+<section class="home wrapper" id="home">
+  <div class="home__info">
+    <h1 class="home__name">Diana Zaharova</h1>
+    <ul class="home__info-list">
+      <li class="home__info-item">Frontend-developer</li>
+      <li class="home__info-item">22 years old, St. Petersburg</li>
+    </ul>
+    <div class="home__info-checkboxs">
+      <input class="home__input" type="radio" id="ru" name="lang" />
+      <label class="home__label home__label_line" for="ru">RU</label>
+      <input class="home__input" type="radio" id="eng" name="lang" checked />
+      <label class="home__label" for="eng">ENG</label>
+    </div>
+  </div>
+  <div class="home__img-wrap">
+    <picture>
+      <source
+        type="image/webp"
+        srcset="./img/img@1x.webp 1x, ./img/img@2x.webp 2x"
+      />
+      <img
+        class="home__img"
+        src="./img/img@1x.jpg"
+        srcset="./img/img@2x.jpg 2x"
+        alt="Diana Zaharova"
+        width="945"
+        height="390"
+      />
+    </picture>
+  </div>
+</section>

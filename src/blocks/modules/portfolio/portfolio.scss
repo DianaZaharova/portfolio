@@ -1,0 +1,72 @@
+.portfolio {
+  background-color: #f6f6f6;
+
+  &__wrapper {
+    padding-top: 112px;
+    padding-bottom: 96px;
+    max-width: 1100px;
+  }
+
+  &__slider-wrapper {
+    height: 2000px;
+    overflow-y: hidden;
+  }
+
+  &__slider {
+    overflow: visible;
+    height: 2000px;
+    padding: 0 50px;
+  }
+
+  &__title {
+    margin-bottom: 47px;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__img-link {
+    width: 100%;
+    transition: filter 0.2s ease;
+
+    &:hover {
+      filter: opacity(80%);
+    }
+  }
+
+  &__img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  &__link {
+    color: inherit;
+    margin-top: 45px;
+    display: block;
+    text-align: center;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:active {
+      opacity: 0.5;
+    }
+  }
+
+  &__btn {
+    transform: rotate(90deg);
+    right: 0;
+    bottom: 0;
+    top: auto;
+
+    &_prev {
+      top: 25px;
+      bottom: auto;
+      left: auto;
+      transform: rotate(-90deg);
+    }
+  }
+}

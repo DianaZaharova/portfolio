@@ -1,0 +1,18 @@
+.about {
+  background-color: #f6f6f6;
+
+  &__wrapper {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 110px;
+  }
+
+  &__title {
+    margin-bottom: 36px;
+  }
+
+  &__text {
+    max-width: 500px;
+    margin: 0 auto 50px auto;
+  }
+}
